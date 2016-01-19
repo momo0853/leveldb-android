@@ -174,12 +174,12 @@ clients probably won't use directly
 
 # Build Android Platform
 
-'''
+```
 $ export NDK_PROJECT_PATH=.
 $ ndk-build -j2
-'''
+```
 
-'''
+```
 [armeabi] Compile++ thumb: leveldb <= version_set.cc
 [armeabi] Compile++ thumb: leveldb <= log_reader.cc
 [armeabi] Compile++ thumb: leveldb <= dbformat.cc
@@ -220,4 +220,4 @@ $ ndk-build -j2
 [armeabi] Compile++ thumb: leveldb_util <= filter_policy.cc
 [armeabi] Compile++ thumb: leveldb_util <= arena.cc
 [armeabi] Compile++ thumb: leveldb_util <= port_posix.cc
-'''
+```
